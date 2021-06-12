@@ -22,6 +22,10 @@ git checkout `branch name`
 
 ``git checkout task/add-code-owners ``
 
+# to create and switch branch
+
+`git checkout -b task5`
+
 # to delete branch locally
 
 `git branch -D task/test`
@@ -33,5 +37,23 @@ git checkout `branch name`
 # pull latest change of a branch from remote
 
 `git pull origin main `
+
+# to see status of file,folders changed
+
+`git status`
+
+# to track the file for commit 
+
+git add 'file name'
+
+`git add GIT.md`
+
+# to commit a file with message
+
+`git commit -m "message"`
+
+# to remove all local changes
+
+`git checkout -f`
 
 
